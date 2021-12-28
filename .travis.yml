@@ -6,4 +6,4 @@ before_install:
   - docker build -t prajanshrestha/05frontend -f Dockerfile.dev .
 
 script: 
-  - docker run prajanshrestha/05frontend npm run test -- --coverage
+  - docker run prajanshrestha/05frontend npm run test -- -- coverage
